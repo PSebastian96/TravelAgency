@@ -1,0 +1,90 @@
+.nav-link {
+  color: rgb(241, 80, 233);
+}
+
+.nav-link:hover {
+  color:rgb(248, 225, 247);
+}
+
+.navbar-brand:hover {
+  color:rgb(255, 129, 249);
+}
+
+.icon-purple {
+  color: purple;
+}
+
+.icon-purple:hover {
+  color: rgb(255, 129, 249);
+}
+
+.btn-purple {
+  background-color: purple;
+  color: white;
+}
+
+.btn-purple:hover {
+  background-color: rgb(209, 3, 209);
+  color: white;
+}
+
+.text-purple {
+  color: rgb(139, 1, 139);
+}
+
+.text-purple:hover { 
+  color: rgb(209, 3, 209);
+}
+
+.img-size {
+  height: 400px;
+  width: 400px;
+}
+
+
+.bg-purple {
+  background: rgb(68, 24, 139);
+}
+
+.bg-blue {
+  background: rgb(12, 79, 141);
+}
+
+.bg-navy {
+  background-color: navy;
+}
+
+.nav-link.active {
+  color:rgb(78, 14, 75);
+  font-weight: bold;
+}
+
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.testimonial-card .avatar {
+  width: 110px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.details-btn {
+  display: none; /* Ensure the button is hidden by default */
+  padding: 10px 20px;
+  background-color: burlywood;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.details-btn:hover {
+  background-color: #f0c040;
+  color: #000;
+}
