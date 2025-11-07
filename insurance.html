@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/style.css">
+    <title>TravelCo - Insurance</title>
+</head>
+<body>
+    
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-purple navbar-dark border-bottom fixed-top">        
+        <div class="container">
+        
+            <a href="index.html" class="navbar-brand">TravelCo <i class="fa-solid fa-plane-departure"></i></a>
+
+            <!-- Toggler for mobile view -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu4">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <!-- Centered navigation links and Login button -->
+            <div class="collapse navbar-collapse" id="navmenu4">
+                
+                <div class="d-flex flex-column flex-lg-row w-100 align-items-center">
+                    
+                    <ul class="navbar-nav mx-auto flex-column flex-lg-row text-center">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about_us.html" class="nav-link">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="destinations.html" class="nav-link">Destinations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="insurance.html" class="nav-link">Insurance</a>
+                        </li>
+                    </ul>
+
+                    <!-- Centered Button -->
+                    <div class="d-flex justify-content-lg-end justify-content-center">
+                        <a href="#membership" class="btn btn-purple" data-bs-toggle="modal"
+                        data-bs-target="#membership">Become a Member</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-navy text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container py-3">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img class="img-fluid" src="static/img/insurance_hero.png" alt="astronaut_coding" >
+                </div>
+                <div class="col-md p-5">
+                    <h1 class="py-5">Find Your Ideal Insurance Plan</h1>
+                </div>
+            </div>
+        </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="bg-purple container-fluid py-4">
+
+        <div class="container">
+
+            <div class="container py-3">
+                <h1 class="text-center text-light">Insurance Options</h1>
+            </div>
+
+            <div class="row">
+    
+                <div class="col-md-4 my-4">
+                    <div class="card">
+                      <div class="mx-2 card-body text-center">
+                        <h5 class="card-title my-2">Basic</h5>
+                        <p class="text-muted">
+                          All the essentials for traveling
+                        </p>
+                        <p class="h2 fw-bold">£25<small class="text-muted" style="font-size: 18px;">/mo</small></p>
+                        <a href="#purchasebasic" data-mdb-ripple-init class="btn btn-dark d-block mb-2 mt-3 text-capitalize" data-bs-toggle="modal"
+                        data-bs-target="#purchasebasic">Buy Basic</a>
+                      </div>
+                      <div class="card-footer">
+                        <p class="text-uppercase fw-bold" style="font-size: 12px;">What's included</p>
+                        <ol class="list-unstyled mb-0 px-4">
+                          <li class="mb-3">
+                            <i class="fas fa-check text-success me-3"></i><small>Lorem Ipsum</small>
+                          </li>
+                          <li class="mb-3">
+                            <i class="fas fa-check text-success me-3"></i><small>Lorem Ipsum</small>
+                          </li>
+                          <li class="mb-3">
+                            <i class="fas fa-check text-success me-3"></i><small>Lorem Ipsum</small>
+                          </li>
+                          <li class="mb-3">
+                            <i class="fa-solid fa-xmark text-danger me-3"></i><small>Lorem Ipsum</small>
+                          </li>
+                          <li class="mb-3">
+                            <i class="fa-solid fa-xmark text-danger me-3"></i><small>Lorem Ipsum</small>
+                          </li>
+                          <li class="mb-3">
+                            <i class="fa-solid fa-xmark text-danger me-3"></i><small>Lorem Ipsum</small>
+                          </li>
+                          <li class="mb-3">
+                            <i class="fa-solid fa-xmark text-danger me-3"></i><small>Lorem Ipsum</small>
+                          </li>
+                          <li class="mb-3">
+                            <i class="fa-solid fa-xmark text-danger me-3"></i><small>Lorem Ipsum</small>
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 my-4">
+                    <div class="card">
+                      <div class="mx-2 card-body text-center">
+                        <h5 class="card-title my-2 ">Medium</h5>
+                        <p class="text-muted">
+                          All the essentials & extra insurance
+                        </p>
+                        <p class="h2 fw-bold">£35<small class="text-muted" style="font-size: 18px;">/mo</small></p>
+                        <a href="#purchasemedium" data-mdb-ripple-init data-bs-toggle="modal"
+                        data-bs-target="#purchasemedium" class="btn btn-dark d-block mb-2 mt-3 text-capitalize">Buy Enterprise</a>
+                      </div>
+                      <div class="card-footer">
+                        <p class="text-uppercase fw-bold" style="font-size: 12px;">What's included</p>
+                        <ol class="list-unstyled mb-0 px-4">
+                          <li class="mb-3">
+                            <i class="fas fa-check text-success me-3"></i><small>Lorem Ipsum</small>
+                          </li>
+                          <li class="mb-3">
+                            <i class="fas fa-check text-success me-3"></i><small>Lorem Ipsum</small>
+                          </li>
+                          <li class="mb-3">
+                            <i class="fas fa-check text-success me-3"></i><small>Lorem Ipsum</small>
+                          </li>
+                          <li class="mb-3">
+                            <i class="fas fa-check text-success me-3"></i><small>Lorem Ipsum</small>
+                          </li>
+                          <li class="mb-3">
+                            <i class="fas fa-check text-success me-3"></i><small>Lorem Ipsum</small>
+                          </li>
+                          <li class="mb-3">
+                            <i class="fa-solid fa-xmark text-danger me-3"></i><small>Lorem Ipsum</small>
+                          </li>
+                          <li class="mb-3">
+                            <i class="fa-solid fa-xmark text-danger me-3"></i><small>Lorem Ipsum</small>
+                          </li><li class="mb-3">
+                            <i class="fa-solid fa-xmark text-danger me-3"></i><small>Lorem Ipsum</small>
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 my-4">
+                  <div class="card">
+                    <div class="mx-2 card-body text-center">
+                      <h5 class="card-title my-2 ">Premium</h5>
+                      <p class="text-muted">
+                        Full coverage for traveling
+                      </p>
+                      <p class="h2 fw-bold">£55<small class="text-muted" style="font-size: 18px;">/mo</small></p>
+                      <a href="#purchasepremium" data-mdb-ripple-init data-bs-toggle="modal"
+                      data-bs-target="#purchasepremium" class="btn btn-dark d-block mb-2 mt-3 text-capitalize">Buy Premium</a>
+                    </div>
+                    <div class="card-footer">
+                      <p class="text-uppercase fw-bold" style="font-size: 12px;">What's included</p>
+                      <ol class="list-unstyled mb-0 px-4">
+                        <li class="mb-3">
+                          <i class="fas fa-check text-success me-3"></i><small>Lorem Ipsum</small>
+                        </li>
+                        <li class="mb-3">
+                          <i class="fas fa-check text-success me-3"></i><small>Lorem Ipsum</small>
+                        </li>
+                        <li class="mb-3">
+                          <i class="fas fa-check text-success me-3"></i><small>Lorem Ipsum</small>
+                        </li>
+                        <li class="mb-3">
+                          <i class="fas fa-check text-success me-3"></i><small>Lorem Ipsum</small>
+                        </li>
+                        <li class="mb-3">
+                          <i class="fas fa-check text-success me-3"></i><small>Lorem Ipsum</small>
+                        </li>
+                        <li class="mb-3">
+                          <i class="fas fa-check text-success me-3"></i><small>Lorem Ipsum</small>
+                        </li>
+                        <li class="mb-3">
+                          <i class="fas fa-check text-success me-3"></i><small>Lorem Ipsum</small>
+                        </li><li class="mb-3">
+                            <i class="fas fa-check text-success me-3"></i><small>Lorem Ipsum</small>
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+
+        </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-light py-4">
+        <div class="container">
+        <div class="row">
+            <aside class="col-lg-3 col-md-6 mb-4 text-center">
+            <img src="static/img/suitcase.png" alt="suitcase" class="container">
+            <p>
+                <strong>TravelCo Ltd.</strong>
+                <br />
+                Providing safe & reliable Holidays since 1992
+            </p>
+            </aside>
+            <nav class="col-lg-3 col-md-6 mb-4 pt-5 text-center">
+            <h6 class="fw-bold">Services</h6>
+            <ul class="list-unstyled">
+                <li><a href="#" class="text-decoration-none text-purple">Branding</a></li>
+                <li><a href="#" class="text-decoration-none text-purple">Design</a></li>
+                <li><a href="#" class="text-decoration-none text-purple">Marketing</a></li>
+                <li><a href="#" class="text-decoration-none text-purple">Advertisement</a></li>
+            </ul>
+            </nav>
+            <nav class="col-lg-3 col-md-6 mb-4 pt-5 text-center">
+            <h6 class="fw-bold">Company</h6>
+            <ul class="list-unstyled">
+                <li><a href="#" class="text-decoration-none text-purple">About us</a></li>
+                <li><a href="#" class="text-decoration-none text-purple">Contact</a></li>
+                <li><a href="#" class="text-decoration-none text-purple">Jobs</a></li>
+                <li><a href="#" class="text-decoration-none text-purple">Press kit</a></li>
+            </ul>
+            </nav>
+            <nav class="col-lg-3 col-md-6 mb-4 pt-5 text-center">
+            <h6 class="fw-bold">Legal</h6>
+            <ul class="list-unstyled">
+                <li><a href="#" class="text-decoration-none text-purple">Terms of use</a></li>
+                <li><a href="#" class="text-decoration-none text-purple">Privacy policy</a></li>
+                <li><a href="#" class="text-decoration-none text-purple">Cookie policy</a></li>
+            </ul>
+            </nav>
+        </div>
+        </div>
+  </footer>
+
+  <!-- Member Modal -->
+  <div
+  class="modal fade"
+  id="membership"
+  tabindex="-1"
+  aria-labelledby="memberLabel"
+  aria-hidden="true"
+ >
+     <div class="modal-dialog">
+         <div class="modal-content">
+             <div class="modal-header">
+                 <h5 class="modal-title" id="memberLabel">Become a member!</h5>
+                 <button
+                     type="button"
+                     class="btn-close"
+                     data-bs-dismiss="modal"
+                     aria-label="Close"
+                 ></button>
+             </div>
+             <div class="modal-body">
+                 <p class="lead">Fill out this form and we will get back to you</p>
+                 <form>
+                     <div class="mb-3">
+                     <label for="first-name" class="col-form-label">First Name:</label>
+                     <input type="text" class="form-control" id="first-name" />
+                     </div>
+                     <div class="mb-3">
+                     <label for="last-name" class="col-form-label">Last Name:</label>
+                     <input type="text" class="form-control" id="last-name" />
+                     </div>
+                     <div class="mb-3">
+                     <label for="email" class="col-form-label">Email:</label>
+                     <input type="email" class="form-control" id="email" />
+                     </div>
+                     <div class="mb-3">
+                     <label for="phone" class="col-form-label">Phone:</label>
+                     <input type="tel" class="form-control" id="phone" />
+                     </div>
+                 </form>
+             </div>
+             <div class="modal-footer">
+                 <button
+                     type="button"
+                     class="btn btn-secondary"
+                     data-bs-dismiss="modal"
+                 >
+                     Close
+                 </button>
+                 <button type="button" class="btn btn-primary">Submit</button>
+             </div>
+         </div>
+     </div>
+  </div>
+
+  <!-- Purchase Modal -->
+    <!-- Basic -->
+    <div
+    class="modal fade"
+    id="purchasebasic"
+    tabindex="-1"
+    aria-labelledby="basicLabel"
+    aria-hidden="true"
+  >
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="basicLabel">Purchase Basic Insurance <i class="fa-solid fa-briefcase-medical text-danger"></i></h5>
+                  <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                  ></button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                      <div class="mb-3">
+                      <label for="first-name" class="col-form-label">Cardholders Name:</label>
+                      <input type="text" class="form-control" id="first-name" />
+                      </div>
+                      <div class="mb-3">
+                      <label for="last-name" class="col-form-label">Card Number</label>
+                      <img src="https://img.icons8.com/color/48/000000/visa.png" alt="visa" width="34px">
+                      <input type="text" class="form-control" id="last-name" size="17" placeholder="1234 5678 9012 3457" minlength="19" maxlength="19"/>
+                      </div>
+                        <div class="mb-3">
+                          <label for="email" class="col-form-label">CVV</label>
+                          <div class="row g-2">
+                            <div class="col-sm-6">
+                                <label for="typeExp" class="form-label">Expiration</label>
+                                <input type="text" id="typeExp" class="form-control" placeholder="MM/YYYY"
+                                    size="7" minlength="7" maxlength="7">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="typeText2" class="form-label">CVV</label>
+                                <input type="password" id="typeText2" class="form-control"
+                                    placeholder="&#9679;&#9679;&#9679;" size="3" minlength="3" maxlength="3">
+                            </div>
+                          </div>
+                        </div>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                  <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                  >
+                      Cancel
+                  </button>
+                  <button type="button" class="btn btn-success">Purchase</button>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Medium -->
+    <div
+    class="modal fade"
+    id="purchasemedium"
+    tabindex="-1"
+    aria-labelledby="mediumLabel"
+    aria-hidden="true"
+  >
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="mediumLabel">Purchase Medium Insurance <i class="fa-solid fa-shield text-success"></i></h5>
+                  <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                  ></button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                      <div class="mb-3">
+                      <label for="first-name" class="col-form-label">Cardholders Name:</label>
+                      <input type="text" class="form-control" id="first-name" />
+                      </div>
+                      <div class="mb-3">
+                      <label for="last-name" class="col-form-label">Card Number</label>
+                      <img src="https://img.icons8.com/color/48/000000/visa.png" alt="visa" width="34px">
+                      <input type="text" class="form-control" id="last-name" size="17" placeholder="1234 5678 9012 3457" minlength="19" maxlength="19"/>
+                      </div>
+                        <div class="mb-3">
+                          <label for="email" class="col-form-label">CVV</label>
+                          <div class="row g-2">
+                            <div class="col-sm-6">
+                                <label for="typeExp" class="form-label">Expiration</label>
+                                <input type="text" id="typeExp" class="form-control" placeholder="MM/YYYY"
+                                    size="7" minlength="7" maxlength="7">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="typeText2" class="form-label">CVV</label>
+                                <input type="password" id="typeText2" class="form-control"
+                                    placeholder="&#9679;&#9679;&#9679;" size="3" minlength="3" maxlength="3">
+                            </div>
+                          </div>
+                        </div>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                  <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                  >
+                      Cancel
+                  </button>
+                  <button type="button" class="btn btn-success">Purchase</button>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Premium -->
+    <div
+    class="modal fade"
+    id="purchasepremium"
+    tabindex="-1"
+    aria-labelledby="premiumLabel"
+    aria-hidden="true"
+  >
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="premiumLabel">Purchase Premium Insurance <i class="fa-regular fa-gem"></i></h5>
+                  <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                  ></button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                      <div class="mb-3">
+                      <label for="first-name" class="col-form-label">Cardholders Name:</label>
+                      <input type="text" class="form-control" id="first-name" />
+                      </div>
+                      <div class="mb-3">
+                      <label for="last-name" class="col-form-label">Card Number</label>
+                      <img src="https://img.icons8.com/color/48/000000/visa.png" alt="visa" width="34px">
+                      <input type="text" class="form-control" id="last-name" size="17" placeholder="1234 5678 9012 3457" minlength="19" maxlength="19"/>
+                      </div>
+                        <div class="mb-3">
+                          <label for="email" class="col-form-label">CVV</label>
+                          <div class="row g-2">
+                            <div class="col-sm-6">
+                                <label for="typeExp" class="form-label">Expiration</label>
+                                <input type="text" id="typeExp" class="form-control" placeholder="MM/YYYY"
+                                    size="7" minlength="7" maxlength="7">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="typeText2" class="form-label">CVV</label>
+                                <input type="password" id="typeText2" class="form-control"
+                                    placeholder="&#9679;&#9679;&#9679;" size="3" minlength="3" maxlength="3">
+                            </div>
+                          </div>
+                        </div>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                  <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                  >
+                      Cancel
+                  </button>
+                  <button type="button" class="btn btn-success">Purchase</button>
+              </div>
+          </div>
+      </div>
+    </div>
+
+  <!-- Script -->
+  <script type="module" src="static/currentpage.js"></script>
+  <script type="module" src="static/js/bootstrap.min.js"></script>
+
+</body>
+</html>
